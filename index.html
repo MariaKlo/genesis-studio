@@ -2,8 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+    <!--Meta tags, google fonts-->
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+    <link href="https://db.onlinewebfonts.com/c/4baee4a2550da10078fd0d6dd9440bc1?family=MTN+Brighter+Sans+Regular" rel="stylesheet">
+    <!-- Icon -->
+	<link rel="icon" href="img/icon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <!-- base.css -->
     <link rel="stylesheet" href="css/base.css">
 </head>
 <body>
@@ -25,8 +31,118 @@
     <!-- Конец -->
 
     <div class="main">
-        В данном блоке размещается верстка
+        <header class="header">
+            <div class="container">
+                <div class="header-wrapper header-wrapper_menu">
+                    <a href="#"><img src="./img/main-logo.png" alt="Genesis Studio"></a>
+                    <nav class="header-nav">
+                        <ul class="header-list">
+                            <li class="header-item">
+                                <a class="header-link">About</a>
+                            </li>
+                            <li class="header-item">
+                                <a class="header-link">Services</a>
+                            </li>
+                            <li class="header-item">
+                                <a class="header-link">Pricing</a>
+                            </li>
+                            <li class="header-item">
+                                <a class="header-link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-wrapper">
+                    <div class="header-wrap">
+                        <h1 class="header-title">keeping memories with an <span>Aesthetic Pictures and Videos</span></h1>
+                        <p class="header-text">The most reliable studio for Photography and Videography</p>
+                        <div class="header-wrapping">
+                            <button class="header-btn header-btn_red">Portfolio</button>
+                            <button class="header-btn">Book now</button>
+                        </div>
+                    </div>
+                    <img src="./img/camera.png" alt="camera" class="header-img">
+                </div>
+                <div class="services">
+                    <h3 class="services-title">Affiliate services</h3>
+                    <div class="services-wrapper">
+                        <div class="services-item">
+                            <img src="./img/album.svg" alt="album icon" class="services-img">
+                            <p class="services-text">Photo Book</p>
+                        </div>
+                        <div class="services-item">
+                            <img src="./img/video.svg" alt="video icon" class="services-img">
+                            <p class="services-text">Videography</p>
+                        </div>
+                        <div class="services-item">
+                            <img src="./img/frame.svg" alt="frame icon" class="services-img">
+                            <p class="services-text">Photo Frame</p>
+                        </div>
+                        <div class="services-item">
+                            <img src="./img/wanted.svg" alt="wanted icon" class="services-img">
+                            <p class="services-text">Passport Picture</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="about">
+            <div class="container">
+                <div class="about-wrapper">
+                    <div class="about-item">
+                        <img src="./img/filming.png" alt="backstage" class="about-img">
+                        <div class="about-wrap">
+                            <h3 class="about-title">Well Quiped studio set up for both Video and PhotoProduction</h3>
+                            <p class="about-text">We have current equipment to facilitate studio productions 
+                            </p>
+                            <button class="about-btn">View Pricing</button>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="about-wrap">
+                            <h3 class="about-title">Over 10years Experience in Video Production</h3>
+                            <p class="about-text">
+                                We have experience Cenimatographers with current equipment and tool to produce awesome footages
+                            </p>
+                            <button class="about-btn about-btn_purple">Read More</button>
+                        </div>
+                        <img src="./img/big-cam.png" alt="professional camera" class="about-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="review">
+            <div class="container">
+                <p class="review-subtitle">Testimonials</p>
+                <h3 class="review-title">Read what others have to say</h3>
+                <div class="review-wrapper">
+                    <div class="review-item">
+                        <img src="./img/avatar.png" alt="Olivia Cole" class="review-img">
+                        <p class="review-name">Olivia Cole</p>
+                        <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.</p>
+                    </div>
+                    <div class="review-item">
+                        <img src="./img/avatar2.png" alt="Mr. Katakyie" class="review-img">
+                        <p class="review-name">Mr. Katakyie</p>
+                        <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.</p>
+                    </div>
+                    <div class="review-item">
+                        <img src="./img/avatar3.png" alt="Mrs. Sam" class="review-img">
+                        <p class="review-name">Mrs. Sam</p>
+                        <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="book">
+            <div class="container">
+                <div class="book-wrapper">
+                    <p class="book-subtitle">are you ready?</p>
+                    <h3 class="book-title">Be A Part Of The Next Big Thing</h3>
+                    <button class="book-btn">Book Now</button>
+                </div>
+            </div>
+        </section>
     </div>
-
 </body>
 </html>

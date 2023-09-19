@@ -1,3 +1,15 @@
+@import url(https://db.onlinewebfonts.com/c/4baee4a2550da10078fd0d6dd9440bc1?family=MTN+Brighter+Sans+Regular);
+
+ol, ul, li {
+	list-style: none;
+    margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
 .maketforfigma{
     flex: 0 0 auto;
     background: #313a46;
@@ -25,6 +37,10 @@
 }
 .main{
     flex: 1 0 auto;
+    background: url("../img/bg.png") no-repeat top right;
+    font-family: "MTN Brighter Sans Regular";
+    color: #fff;
+    font-size: 20px;
 }
 html{
     height: 100%;
@@ -35,4 +51,249 @@ body{
     height: 100%;
     padding: 0;
     margin: 0;
+    background-color: #000;
+}
+
+/* custom styles */
+.container {
+    max-width: 1125px;
+    margin: 0 auto;
+}
+
+/* header */
+.header {
+    padding-top: 80px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrapper_menu {
+    margin-bottom: 50px;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.header-item:hover {
+    cursor: pointer;
+}
+
+.header-title {
+    max-width: 495px;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.header-title span {
+    font-weight: 700;
+}
+
+.header-text {
+    margin-bottom: 20px;
+    max-width: 405px;
+}
+
+.header-btn {
+    border-radius: 10px;
+    width: 175px;
+    height: 57px;
+    color: #fff;
+    font-size: 20px;
+    font-family: "MTN Brighter Sans Regular";
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid #8A8A8A;
+}
+
+.header-btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.header-btn_red {
+    background-color: #D50138;
+    margin-right: 20px;
+    border: none;
+}
+
+/* services */
+.services {
+    margin-top: 120px;
+}
+
+.services-title {
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.services-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF1A;
+    padding: 20px;
+}
+
+.services-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 25px;
+}
+
+/* about */
+.about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+
+.about-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.about-title {
+    font-size: 36px;
+    max-width: 400px;
+}
+
+.about-text {
+    font-size: 17px;
+    max-width: 373px;
+}
+
+.about-btn {
+    font-family: "MTN Brighter Sans Regular";
+    width: 175px;
+    height: 57px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0026FF;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.about-btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.about-btn_purple {
+   background-color: #7502A3;
+}
+
+/* review */
+.review {
+    padding-bottom: 100px;
+}
+
+.review-subtitle {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.review-title {
+    font-size: 50px;
+    font-weight: 700;
+    max-width: 435px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 180px;
+}
+
+.review-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-item {
+    background-color: #0026FF4D;
+    border: none;
+    border-radius: 18px;
+    position: relative;
+    padding: 75px 50px 50px 50px;
+}
+
+.review-name {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.review-text {
+    max-width: 235px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.review-img {
+    position: absolute;
+    top: -86px;
+    left: 25%;
+    width: 162px;
+    height: 162px;
+}
+
+/* book */
+.book {
+    padding-bottom: 150px;
+}
+
+.book-wrapper {
+    background: linear-gradient(94.92deg, rgba(0, 117, 255, 0.47) 1.06%, rgba(231, 0, 111, 0.41) 101.51%);
+    border: none;
+    border-radius: 18px;
+    padding: 35px 0;
+    text-align: center;
+}
+
+.book-subtitle {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.book-title {
+    font-size: 50px;
+    font-weight: 700;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.book-btn {
+    background-color: #fff;
+    width: 175px;
+    height: 57px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "MTN Brighter Sans Regular";
+}
+
+.book-btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.5s;
 }
