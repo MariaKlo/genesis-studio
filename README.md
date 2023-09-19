@@ -16,3 +16,4 @@
 [Правила](https://figmatohtml.notion.site/7d3e52a516734f99935b08c56d3d7d50)
 
 ## GitHub Pages
+https://mariaklo.github.io/genesis-studio/
